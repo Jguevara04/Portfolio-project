@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Required meta tags always come first -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Films Dat Slap</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-md-8">
+                    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+                        <div class="navbar-brand">FILMS DAT SLAP</div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active"><a class="nav-link" href="#"><i
+                                            class="fa fa-home fa-lg"></i> HOME</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> MOVIE
+                                        LIST</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i>
+                                        UPCOMING FILMS</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="#"><i
+                                            class="fa fa-address-card fa-lg"></i> ABOUT US</a>
+                                </li>
+                            </ul>
+                            <a role="button" class="btn btn-danger" data-toggle="modal" data-target="#movieModal">
+                                Movie of the Week</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="movieModal" tabindex="-1" role="dialog" aria-labelledby="movieModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="movieModalLabel">Movie of the Week</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This week's movie is "The Shawshank Redemption"</p>
+                        <p>An uplifting tale about hope and friendship, "The Shawshank Redemption" is a must-see for any
+                            movie fan.
+                            It stars Tim Robbins and Morgan Freeman as prisoners who bond over their time in prison and
+                            work together
+                            to create a better life for themselves.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail" src="images/avatar.png" alt="Breadcrumb Trail" />
+                    <div class="media-body align-self-center">
+                        <h3>Avatar Way of the water</h3>
+                        <p class="d-none d-sm-block">Avatar: The Way of Water is an embodiment of the power of film to
+                            transport us to entirely new worlds, transcendent and astonishing in its ambition and its
+                            ability to make us believe. Cameron has accomplished what many deemed impossible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail" src="images/pussinboots.png" alt="Breadcrumb Trail" />
+                    <div class="media-body align-self-center">
+                        <h3>Puss in Boots: The Last wish</h3>
+                        <p class="d-none d-sm-block">
+                            Puss in Boots kind of surprised me. Far more witty then I expected it to be, nicely animated
+                            and featuring a charming story of forgiveness and redemption that belies its Shrek inspired
+                            fractured fairy tale roots, this movie more than won me over..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+            </ul>
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link" href="index.html">HOME</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">MOVIE LIST</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">UPCOMING FILMS</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">ABOUT US</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
